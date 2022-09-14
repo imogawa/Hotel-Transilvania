@@ -1,3 +1,5 @@
+import axios from "axios"
+
 export async function HospedesPost(Hospede){
     try {
         const response = (await axios.post("https://api-rest-hotel.vercel.app/hospedes", Hospede)).data
