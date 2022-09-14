@@ -1,37 +1,41 @@
-import axios from "axios"
+import { Post } from "./ServiceAPI"
 
 export async function HospedesPost(Hospede){
     try {
-        const response = (await axios.post("https://api-rest-hotel.vercel.app/hospedes", Hospede)).data
+        const response = await Post(Hospede, "hospedes")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function ReservasPost(Reserva){
     try {
-        const response = (await axios.post("https://api-rest-hotel.vercel.app/reservas", Reserva)).data
+        const response = await Post(Reserva, "reservas")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function QuartosPost(Quarto){
     try {
-        const response = (await axios.post("https://api-rest-hotel.vercel.app/quartos", Quarto)).data
+        const response = await Post(Quarto, "Quarto")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function FuncionariosPost(Funcionario){
     try {
-        const response = (await axios.post("https://api-rest-hotel.vercel.app/funcionarios", Funcionario)).data
+        const response = await Post(Funcionario, "funcionarios")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }

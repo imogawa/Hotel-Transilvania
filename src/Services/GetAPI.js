@@ -1,73 +1,81 @@
-import axios from "axios";
+import { Get, GetById } from "./ServiceAPI"
 
 export async function HospedesGet(){
     try {
-        const response = (await axios.get("https://api-rest-hotel.vercel.app/hospedes")).data
+        const response = await Get("hospedes")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function ReservasGet(){
     try {
-        const response = (await axios.get("https://api-rest-hotel.vercel.app/reservas")).data
+        const response = await Get("reservas")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function QuartosGet(){
     try {
-        const response = (await axios.get("https://api-rest-hotel.vercel.app/quartos")).data
+        const response = await Get("quartos")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function FuncionariosGet(){
     try {
-        const response = (await axios.get("https://api-rest-hotel.vercel.app/funcionarios")).data
+        const response = await Get("funcionarios")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function HospedesGetById(id){
     try {
-        const response = (await axios.get(`https://api-rest-hotel.vercel.app/hospedes/${id}`)).data
+        const response = await GetById(id, "hospedes")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function ReservasGetById(id){
     try {
-        const response = (await axios.get(`https://api-rest-hotel.vercel.app/reservas/${id}`)).data
+        const response = await GetById(id, "reservas")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function QuartosGetById(id){
     try {
-        const response = (await axios.get(`https://api-rest-hotel.vercel.app/quartos/${id}`)).data
+        const response = await GetById(id, "quartos")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function FuncionariosGetById(id){
     try {
-        const response = (await axios.get(`https://api-rest-hotel.vercel.app/funcionarios/${id}`)).data
+        const response = await GetById(id, "funcionarios")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }

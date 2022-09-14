@@ -1,37 +1,41 @@
-import axios from "axios";
+import { DeleteById } from "./ServiceAPI"
 
 export async function HospedesDeleteById(id){
     try {
-        const response = (await axios.delete(`https://api-rest-hotel.vercel.app/hospedes/${id}`)).data
+        const response = await DeleteById(id, "hospedes")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function ReservasDeleteById(id){
     try {
-        const response = (await axios.delete(`https://api-rest-hotel.vercel.app/reservas/${id}`)).data
+        const response = await DeleteById(id, "reservas")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function QuartosDeleteById(id){
     try {
-        const response = (await axios.delete(`https://api-rest-hotel.vercel.app/quartos/${id}`)).data
+        const response = await DeleteById(id, "quartos")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
 
 export async function FuncionariosDeleteById(id){
     try {
-        const response = (await axios.delete(`https://api-rest-hotel.vercel.app/funcionarios/${id}`)).data
+        const response = await DeleteById(id, "funcionarios")
         return response
     } catch (error) {
         console.log(e)
+        return []
     }
 }
