@@ -1,0 +1,46 @@
+header{
+    background-color: rgb(139, 94, 66);
+    color: rgb(247, 247, 247);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+header > div{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+img{
+    margin-left: 5%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(247, 247, 247);
+}
+
+li{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+li:hover{
+    color: rgb(252, 144, 69);
+}
