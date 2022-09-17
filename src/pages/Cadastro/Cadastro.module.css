@@ -66,3 +66,30 @@
     text-align: center;
     font-size: 3em;
 }
+
+.alerts{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(90, 11, 11, 0.3);
+    color: rgb(240, 147, 85);
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
+}
+
+.alerts > img {
+    height: 20px;
+    margin-top: 5px;
+}
+
+.sucesso{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(11, 90, 18, 0.3);
+    color: rgb(247,247,247);
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    margin: 0 10px;
+}

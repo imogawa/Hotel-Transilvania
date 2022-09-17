@@ -1,40 +1,42 @@
-function validaSenha(senha, confirmacaoSenha, setErro, erro){
-    if (senha !== confirmacaoSenha){
-        setErro([...erro, "Senhas não batem!"])
+function validaSenha(senha, confirmacaoSenha, erro){
+    if (senha !== confirmacaoSenha || !senha){
+        erro.push("Senhas não batem!")
     }
 }
 
-function validaEmail(email, setErro, erro){
+function validaEmail(email, erro){
     const regex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/i
     if(!regex.test(email)){
-        setErro([...erro, "E-mail inválido!"])
+        erro.push("E-mail inválido!")
     }
 }
 
-function validaNome(nome, setErro, erro){
+function validaNome(nome, erro){
     if(nome.length < 3){
-        setErro([...erro, "Nome inválido!"])
+        erro.push("Nome inválido!")
     }
 }
 
-function validaCPF(cpf, setErro, erro){
+function validaCPF(cpf, erro){
     const cpfTeste = parseInt(cpf)
     if(cpfTeste != cpf || cpf.length != 11){
-        setErro([...erro, "CPF inválido!"])
+        erro.push("CPF inválido!")
     }
 }
 
-function validaTelefone(telefone, setErro, erro){
+function validaTelefone(telefone, erro){
     const tel = parseInt(telefone)
     if(tel != telefone || telefone.length < 10 || telefone.length > 12){
-        setErro([...erro, "Telefone inválido!"])
+        erro.push("Telefone inválido!")
     }
 }
 
-export default function validaHospede(payload, setErro, erro){
-    validaSenha(payload.senha, payload.confirmacaoSenha, setErro, erro)
-    validaEmail(payload.email, setErro, erro)
-    validaNome(payload.nome, setErro, erro)
-    validaTelefone(payload.telefone, setErro, erro)
-    validaCPF(payload.cpf, setErro, erro)
+export default function validaHospede(payload){
+    const erro = []
+    validaSenha(payload.senha, payload.confirmacaoSenha, erro)
+    validaEmail(payload.email, erro)
+    validaNome(payload.nome, erro)
+    validaTelefone(payload.telefone, erro)
+    validaCPF(payload.cpf, erro)
+    return erro
 }
