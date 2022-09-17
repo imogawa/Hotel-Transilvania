@@ -1,10 +1,11 @@
 import React from "react";
 import style from './Header.module.css'
 import logo from '../../assets/zebra.png'
+import { Link } from "react-router-dom";
 
 export default function Header(){
-    const itens = ['Menu','Nossos Quartos','Fale Conosco','Cadastre-se','Login','Sobre nós']
-    const hrefs = ['','','','','','']
+    const itens = ['Home','Nossos Quartos','Fale Conosco','Cadastre-se','Login','Sobre nós']
+    const hrefs = ['/','/quartos','/fale-conosco','/cadastro','/login','/time']
     return (
         <header>
             <div>
@@ -13,7 +14,11 @@ export default function Header(){
             <nav>
                 {itens.map((item, index)=>{
                     return(
-                        <a href={hrefs[index]}><li>{item}</li></a>
+                        <li key={index}> 
+                            <Link to={hrefs[index]}>
+                                {item}
+                            </Link>
+                        </li>
                     )
                 })}
             </nav>
