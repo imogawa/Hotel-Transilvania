@@ -1,9 +1,8 @@
 import validaHospede from "./ValidationService";
 import { HospedeModel } from "../models/CrudModel";
 
-export default function modelaHospede(payload, setErro, erro){
-    setErro([])
-    validaHospede(payload, setErro, erro)
+export default function modelaHospede(payload, setErro){
+    const erro = validaHospede(payload)
     if(!erro.length){
         const Hospede = new HospedeModel(
             payload.nome,
@@ -14,5 +13,5 @@ export default function modelaHospede(payload, setErro, erro){
         )
         return Hospede
     }
-    return false
+    return {erro, isValid: false}
 }
