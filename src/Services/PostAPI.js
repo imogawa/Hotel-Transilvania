@@ -1,13 +1,8 @@
 import { Post } from "./ServiceAPI"
 
 export async function HospedesPost(Hospede){
-    try {
-        const response = await Post(Hospede, "hospedes")
-        return response
-    } catch (e) {
-        console.log(e)
-        return []
-    }
+    const response = await Post(Hospede, "hospedes")
+    return response
 }
 
 export async function ReservasPost(Reserva){
