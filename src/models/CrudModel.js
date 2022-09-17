@@ -1,9 +1,10 @@
 export class HospedeModel{
-    constructor(nome, cpf, email, telefone){
+    constructor(nome, cpf, email, telefone, senha){
         this.nome = nome
         this.cpf = cpf
         this.email = email
         this.telefone = telefone
+        this.senha = senha
     }
 }
 
