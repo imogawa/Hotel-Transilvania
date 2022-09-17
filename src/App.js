@@ -8,7 +8,6 @@ const App = () => {
   <>
     <Header/>
     <div className='main'>
-      App React
       <Cadastro />
     </div> 
   </>

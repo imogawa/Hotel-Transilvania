@@ -1,0 +1,68 @@
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1vh;
+}
+
+.cadastro > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.cadastro > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(139, 94, 66, 0.5);
+    width: 40%;
+    margin: 2%;
+    height: fit-content;
+    padding: 20px;
+}
+
+.cadastro > div > div > form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.cadastro > div > div > form > label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+
+.cadastro > div > div > div{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 10px;
+}
+
+.saudacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 40%;
+}
+
+.saudacao > img{
+    height: 300px;
+}
+
+.saudacao > h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
