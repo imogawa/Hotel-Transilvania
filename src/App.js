@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Header from './components/Header/Header';
 import Cadastro from './pages/Cadastro/Cadastro';
+import Login from './pages/Login/Login';
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
     <div className='main'>
       <Routes>
           <Route path='/cadastro' element={<Cadastro />} />
-          <Route path='/login' element={<p>login</p>} />
+          <Route path='/login' element={<Login />} />
       </Routes>
     </div>
   </Router>

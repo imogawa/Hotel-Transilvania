@@ -1,4 +1,5 @@
 function validaSenha(senha, confirmacaoSenha, erro){
+    console.log(senha, confirmacaoSenha)
     if (senha !== confirmacaoSenha || !senha){
         erro.push("Senhas não batem!")
     }
