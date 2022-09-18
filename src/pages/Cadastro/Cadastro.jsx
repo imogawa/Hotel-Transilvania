@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import modelaHospede from "../../Services/HospedeService";
+import { modelaHospede } from "../../Services/HospedeService";
 import { HospedesPost } from "../../Services/PostAPI";
 import Botao from "../../components/Botao/Botao";
 import logo from "../../assets/zebra.png"
