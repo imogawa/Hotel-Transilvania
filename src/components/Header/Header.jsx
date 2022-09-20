@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Header(){
     const itens = ['Home','Nossos Quartos','Fale Conosco','Cadastre-se','Login','Sobre nós']
-    const hrefs = ['/','/quartos','/fale-conosco','/cadastro','/login','/sobre']
+    const hrefs = ['/','/quartos','/time','/cadastro','/login','/sobre']
     return (
         <header>
             <div>
