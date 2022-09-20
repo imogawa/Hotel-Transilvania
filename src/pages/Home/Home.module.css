@@ -5,6 +5,7 @@
 
 .title {
     font-size: 56px;
+    margin-bottom: 0;
 }
 
 .logo {
@@ -14,8 +15,14 @@
 
 .subtitle {
     font-size: 40px;
+    margin: 25px 0;
 }
 
 .description {
     font-size: 19px;
+    margin: 0; 
+}
+
+.video {
+    margin-top: 30px;
 }
