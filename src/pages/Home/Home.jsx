@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className={style.category}>
             <h1 className={style.title}>Hotel <img className={style.logo} src={logo} alt="Logo"/>Transilvânia</h1>
-            <h2 className={style.subtitle}>Colecione bons momentos com a gente</h2>
+            <h2 className={style.subtitle}>Experimente a magia deste lugar maravilhoso</h2>
             <p className={style.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             <div className={style.video}>
                 <video autoplay="autoplay" loop="loop" controls src={video} type="video/mp4 controls" height="315" width="560" ></video>
