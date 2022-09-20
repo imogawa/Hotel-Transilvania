@@ -9,7 +9,9 @@ export default function Header(){
     return (
         <header>
             <div>
-                <img src={logo} alt="Logo" />
+                <Link to="/">
+                    <img src={logo} className={style.logoHeader} alt="Logo" />
+                </Link>
             </div>
             <nav>
                 {itens.map((item, index)=>{

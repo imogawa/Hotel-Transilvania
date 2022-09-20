@@ -44,3 +44,8 @@ li{
 li:hover{
     color: rgb(252, 144, 69);
 }
+
+.logoHeader{
+    height: 45px;
+    margin-top: 2.5px;
+}
