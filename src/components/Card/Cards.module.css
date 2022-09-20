@@ -18,9 +18,9 @@
 }
 
 .container {
-    width: 1150px;
+    width: 90%;
     margin-left: 40px;
-    padding: 50px;
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -57,7 +57,7 @@
 }
 
 .container .card .content p {
-    color: rgb(23, 19, 19);
+    color: rgb(255, 255, 255);
     transition: 0.5s;
 }
 
