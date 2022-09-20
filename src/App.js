@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Cadastro from './pages/Cadastro/Cadastro';
 import Login from './pages/Login/Login';
 import Sobre from './pages/Sobre/Sobre';
+import Home from './pages/Home/Home';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <Header/>
     <div className='main'>
       <Routes>
+          <Route path='/' element={<Home />} />
           <Route path='/cadastro' element={<Cadastro />} />
           <Route path='/login' element={<Login />} />
           <Route path='/sobre' element={<Sobre />} />
