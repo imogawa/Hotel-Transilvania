@@ -24,7 +24,7 @@ function Input({ classe }) {
         <div className={style.formLogin}>
             <form>
                 <input type="text" placeholder="E-mail" onChange={event => setEmail(event.target.value)} />
-                <input type="text" placeholder="Senha" onChange={event => setSenha(event.target.value)} />
+                <input type="password" placeholder="Senha" onChange={event => setSenha(event.target.value)} />
             </form>
             <Botao texto={"Entrar"}/>
             <Link to="/">Esqueceu sua senha?</Link>

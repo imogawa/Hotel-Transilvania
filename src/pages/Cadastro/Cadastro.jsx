@@ -78,11 +78,11 @@ export default function Cadastro(){
                         </label>
                         <label >
                             Senha:
-                            <input type="text" onKeyUp={(event)=>setSenha(event.target.value)} />
+                            <input type="password" onKeyUp={(event)=>setSenha(event.target.value)} />
                         </label>
                         <label >
                             Confirmação de senha:
-                            <input type="text" onKeyUp={(event)=>setConfirmacaoSenha(event.target.value)} />
+                            <input type="password" onKeyUp={(event)=>setConfirmacaoSenha(event.target.value)} />
                         </label>
                     </form>
                         <div>
