@@ -34,7 +34,91 @@ export default function Cards(){
                 <h1>Suíte Plaza</h1>
                 <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
                 <div className={Style.content}>
-                    <p>R$ 300</p>
+                    <p>R$ 300,00</p>
+                    <a href="#">Reservas</a>
+                </div>
+            </div>
+
+            <div className={Style.card}>
+                <div className={Style.img}>
+                    <img src={Quarto}/>
+                </div>
+                <h1>Suíte Plaza</h1>
+                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
+                <div className={Style.content}>
+                    <p>R$ 300,00</p>
+                    <a href="#">Reservas</a>
+                </div>
+            </div>
+
+            <div className={Style.card}>
+                <div className={Style.img}>
+                    <img src={Quarto}/>
+                </div>
+                <h1>Suíte Plaza</h1>
+                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
+                <div className={Style.content}>
+                    <p>R$ 300,00</p>
+                    <a href="#">Reservas</a>
+                </div>
+            </div>
+
+            <div className={Style.card}>
+                <div className={Style.img}>
+                    <img src={Quarto}/>
+                </div>
+                <h1>Suíte Plaza</h1>
+                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
+                <div className={Style.content}>
+                    <p>R$ 300,00</p>
+                    <a href="#">Reservas</a>
+                </div>
+            </div>
+
+            <div className={Style.card}>
+                <div className={Style.img}>
+                    <img src={Quarto}/>
+                </div>
+                <h1>Suíte Plaza</h1>
+                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
+                <div className={Style.content}>
+                    <p>R$ 300,00</p>
+                    <a href="#">Reservas</a>
+                </div>
+            </div>
+
+            <div className={Style.card}>
+                <div className={Style.img}>
+                    <img src={Quarto}/>
+                </div>
+                <h1>Suíte Plaza</h1>
+                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
+                <div className={Style.content}>
+                    <p>R$ 300,00</p>
+                    <a href="#">Reservas</a>
+                </div>
+            </div>
+
+            <div className={Style.card}>
+                <div className={Style.img}>
+                    <img src={Quarto}/>
+                </div>
+                <h1>Suíte Plaza</h1>
+                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
+                <div className={Style.content}>
+                    <p>R$ 300,00</p>
+                    <a href="#">Reservas</a>
+                </div>
+            </div>
+
+            <div className={Style.card}>
+                <div className={Style.img}>
+                    <img src={Quarto}/>
+                </div>
+                <h1>Suíte Plaza</h1>
+                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
+                <div className={Style.content}>
+                    <p>R$ 300,00</p>
                     <a href="#">Reservas</a>
                 </div>
             </div>
