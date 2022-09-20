@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Cadastro from './pages/Cadastro/Cadastro';
 import Login from './pages/Login/Login';
 import Sobre from './pages/Sobre/Sobre';
+import Time from './pages/Time/Time';
 
 
 const App = () => {
@@ -14,7 +15,8 @@ const App = () => {
       <Routes>
           <Route path='/cadastro' element={<Cadastro />} />
           <Route path='/login' element={<Login />} />
-          <Route path='/sobre' element={<Sobre />} />
+          <Route path='/sobre' element={<Sobre/>} />
+          <Route path='/time' element={<Time/>} />
       </Routes>
     </div>
   </Router>
