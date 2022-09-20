@@ -1,7 +1,6 @@
 footer{
     background-color: rgba(139, 94, 66, 0.486);
     display: flex;
-    min-height: 100%;
 }
 
 footer > .logos{
