@@ -1,7 +1,12 @@
 footer{
-    background-color: rgba(139, 94, 66, 0.486);
+    background-color: rgba(184, 142, 88, 0.185);
     display: flex;
-    min-height: 100%;
+    bottom: 0;
+}
+
+hr{
+    display: flex;
+    flex-direction: column;
 }
 
 footer > .logos{
@@ -16,10 +21,11 @@ footer > .logos > .imgResilia{
     width: 150px;
 }
 
-footer > .logos > .imgStone{
+footer > .texto > .logos > .imgStone{
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 200px;
+    padding: 11px;
 }
 
 footer > .copy{
@@ -50,4 +56,14 @@ footer > .copy{
 footer > .copy > span{
     padding: 10px;
 
+}
+
+h4 {
+    color: blue;
+}
+
+h4:hover{
+    transform: scale(0.98);
+    opacity: 0.9;
+    color:black
 }
