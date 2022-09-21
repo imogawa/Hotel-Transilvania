@@ -49,7 +49,7 @@ function Input() {
                 <input type="text" placeholder="E-mail" onChange={e => setValorEntrada({ ...valorEntrada, email: e.target.value }) } />
                  <input type="password" placeholder="Senha" onChange={e => setValorEntrada({ ...valorEntrada, senha: e.target.value }) } /> 
             </form>
-            <Botao classe={style.botaoLogin} texto={"Entrar"} click={requestLogin}/>
+            <Botao classe={style.botaoLogin} texto={"Entrar"} click={handleValidateInputs}/>
             <hr />
             <Link to="/recupera">Esqueceu sua senha?</Link>
         </div>

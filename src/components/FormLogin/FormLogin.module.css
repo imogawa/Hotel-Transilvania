@@ -62,13 +62,3 @@ hr {
     margin: 1.5em 0 1rem 0;
     background:rgb(41, 28, 20);
 }
-
-.formLogin > h4 {
-    text-align: center;
-    margin: 30px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-.formLogin > h4:hover {
-    color:rgb(41, 28, 20) ;
-}
