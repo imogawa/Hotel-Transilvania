@@ -24,8 +24,7 @@ export default function Time(){
                     <div className={style.faSocial}>
                         <a href="https://www.linkedin.com/in/camilamenacho/"><img src={linkedin} alt=""></img></a>
                         <a href="https://github.com/camilamenacho"><img src={github} alt=""></img></a>
-                    </div>
-                    
+                    </div>    
                 </div>
 
                 <div className={style.perfilRede}>
@@ -46,9 +45,8 @@ export default function Time(){
                     </div>
                 </div>
             </div>
-            
-            <div className={style.container}>
 
+            <div className={style.container}>
                 <div className={style.perfilRede}>
                     <img src={ivy} alt="logo" />
                     <span>Iviny Ogawa</span>
@@ -66,7 +64,7 @@ export default function Time(){
                         <a href="github.com/LhaisCosta99"><img src={github} alt=""></img></a>
                     </div>
                 </div>
-
+                
                 <div className={style.perfilRede}>
                     <img src={lu} alt="logo" />
                     <span>Luana Assis</span>
@@ -75,7 +73,6 @@ export default function Time(){
                         <a href="https://www.linkedin.com/in/luanaassisi/"><img src={github} alt=""></img></a>
                     </div>
                 </div>
-
             </div>
         </div>
     )
