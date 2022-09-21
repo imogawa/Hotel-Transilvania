@@ -41,3 +41,11 @@ export default function validaHospede(payload){
     validaCPF(payload.cpf, erro)
     return erro
 }
+
+export default function validaRecuperacao(payload){
+    const erro = []
+    validaSenha(payload.senha, payload.confirmacaoSenha, erro)
+    validaEmail(payload.email, erro)
+
+    return erro
+}
