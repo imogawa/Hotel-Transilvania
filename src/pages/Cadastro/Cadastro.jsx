@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { modelaHospede } from "../../Services/HospedeService";
 import { HospedesPost } from "../../Services/PostAPI";
 import Botao from "../../components/Botao/Botao";
-import logo from "../../assets/zebra.png"
+import logo from "../../assets/logocastle-logo.png"
 import iconX from "../../assets/icone-x.png"
 import style from "./Cadastro.module.css"   
 import Alert from "../../components/Alert/Alert";
