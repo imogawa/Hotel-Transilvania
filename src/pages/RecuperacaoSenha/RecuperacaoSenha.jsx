@@ -84,7 +84,7 @@ export default function RecuperacaoSenha() {
                 <img src={iconX} alt="fechar" onClick={() => setErros([])} />
             </div>
             <div className={style.sucesso} style={{ display: `${redireciona ? "flex" : "none"}` }}>
-                <Alert messagem={"Cadastro efetuado com sucesso, redirecionando a página login."} />
+                <Alert messagem={"Senha alterada com sucesso, redirecionando a página login."} />
             </div>
         </div>
     )
