@@ -19,9 +19,9 @@ export default function Footer(){
             <div className={style.logos}>
                 <img className={style.imgStone} src={logoResilia} alt="Logo" />
             </div>
-            <hr />
+            <hr/>
                 <p> 
-                    Possui alguma crítica construtiva para a melhoria do nosso site? nos mande uma mensagem <a href="/time"><h4>Fale Conosco</h4></a>
+                    Possui alguma crítica construtiva para a melhoria do nosso site? nos mande uma mensagem <a href="/time"><b>Fale Conosco</b></a>
                 </p>
             </div>
         </footer>

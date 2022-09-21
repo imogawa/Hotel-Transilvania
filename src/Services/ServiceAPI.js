@@ -26,6 +26,6 @@ export async function DeleteById(id, nomeDaEntidade){
 }
 
 export async function UpdateByEmail(ObjetoEntidade, nomeDaEntidade){
-    const response = (await axios.patch(`https://api-rest-hotel.vercel.app/${nomeDaEntidade}/update/email`, ObjetoEntidade)).data
+    const response = (await axios.post(`https://api-rest-hotel.vercel.app/${nomeDaEntidade}/update/email`, ObjetoEntidade)).data
     return response
 }
