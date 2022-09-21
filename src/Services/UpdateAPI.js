@@ -39,3 +39,7 @@ export async function FuncionariosUpdateById(id, Funcionario){
         return []
     }
 }
+
+export default async function HospedesUpdateByEmail(email, hospede){
+    const url = `update/email`
+}
