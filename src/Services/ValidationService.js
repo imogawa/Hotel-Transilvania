@@ -1,5 +1,4 @@
 function validaSenha(senha, confirmacaoSenha, erro){
-    console.log(senha, confirmacaoSenha)
     if (senha !== confirmacaoSenha || !senha){
         erro.push("Senhas não batem!")
     }
@@ -44,7 +43,7 @@ export function validaHospede(payload){
 
 export function validaRecuperacao(payload){
     const erro = []
-    validaSenha(payload.senha, payload.confirmacaoSenha, erro)
+    validaSenha(payload.senha, payload.confirmaSenha, erro)
     validaEmail(payload.email, erro)
 
     return erro

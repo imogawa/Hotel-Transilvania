@@ -30,7 +30,7 @@ export default function RecuperacaoSenha() {
         const erro = [...retorno]
 
         if (!erro.length) {
-            HospedesUpdateByEmail.then((response) => {
+            HospedesUpdateByEmail(payload).then((response) => {
                 localStorage.setItem('emailRecuperado', response.email)
                 setRedireciona(true)
                 setTimeout(() => {
@@ -38,7 +38,7 @@ export default function RecuperacaoSenha() {
                     setLogin(true)
                 }, 1500)
             }).catch((e) => {
-                erro.push(e.request.response)
+                erro.push('email não encontrado!')
             })
         }
 
