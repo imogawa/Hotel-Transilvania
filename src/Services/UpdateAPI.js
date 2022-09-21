@@ -40,7 +40,7 @@ export async function FuncionariosUpdateById(id, Funcionario){
     }
 }
 
-export default async function HospedesUpdateByEmail(hospede){
+export async function HospedesUpdateByEmail(hospede){
     const response = await UpdateByEmail(hospede, 'hospedes')
     return response
 }

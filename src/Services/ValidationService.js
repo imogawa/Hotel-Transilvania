@@ -32,7 +32,7 @@ function validaTelefone(telefone, erro){
     }
 }
 
-export default function validaHospede(payload){
+export function validaHospede(payload){
     const erro = []
     validaSenha(payload.senha, payload.confirmacaoSenha, erro)
     validaEmail(payload.email, erro)
@@ -42,7 +42,7 @@ export default function validaHospede(payload){
     return erro
 }
 
-export default function validaRecuperacao(payload){
+export function validaRecuperacao(payload){
     const erro = []
     validaSenha(payload.senha, payload.confirmacaoSenha, erro)
     validaEmail(payload.email, erro)

@@ -1,4 +1,4 @@
-import validaHospede from "./ValidationService";
+import { validaHospede } from "./ValidationService";
 import { HospedeModel } from "../models/CrudModel";
 import axios from "axios";
 
