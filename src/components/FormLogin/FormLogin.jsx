@@ -29,7 +29,7 @@ function Input({ classe }) {
             </form>
             <Botao classe={style.botaoLogin} texto={"Entrar"} click={requestLogin}/>
             <hr />
-            <Link to="/">Esqueceu sua senha?</Link>
+            <Link to="/recupera">Esqueceu sua senha?</Link>
         </div>
     )
 }
