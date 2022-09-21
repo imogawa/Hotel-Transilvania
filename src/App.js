@@ -7,6 +7,7 @@ import Login from './pages/Login/Login';
 import Sobre from './pages/Sobre/Sobre';
 import Home from './pages/Home/Home';
 import Time from './pages/Time/Time';
+import RecuperacaoSenha from './pages/RecuperacaoSenha/RecuperacaoSenha';
 
 
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/sobre' element={<Sobre/>} />
           <Route path='/time' element={<Time/>} />
+          <Route path='/recupera' element={<RecuperacaoSenha />} />
       </Routes>
     </div>
     <Footer />

@@ -19,7 +19,7 @@ export default function Home() {
             <h2 className={style.subtitle}>Experimente a magia deste lugar maravilhoso</h2>
             <p className={style.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             <div className={style.video}>
-                <video autoplay="autoplay" loop="loop" controls src={video} type="video/mp4 controls" height="315" width="560" ></video>
+                <video autoPlay="autoplay" loop="loop" controls src={video} type="video/mp4 controls" height="315" width="560" ></video>
             </div>
         </div> 
     );

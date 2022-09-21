@@ -1,4 +1,4 @@
-import { UpdateById } from "./ServiceAPI"
+import { UpdateByEmail, UpdateById } from "./ServiceAPI"
 
 export async function HospedesUpdateById(id, Hospede){
     try {
@@ -38,4 +38,9 @@ export async function FuncionariosUpdateById(id, Funcionario){
         console.log(e)
         return []
     }
+}
+
+export async function HospedesUpdateByEmail(hospede){
+    const response = await UpdateByEmail(hospede, 'hospedes')
+    return response
 }

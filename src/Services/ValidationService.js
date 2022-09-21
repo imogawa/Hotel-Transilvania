@@ -1,5 +1,4 @@
 function validaSenha(senha, confirmacaoSenha, erro){
-    console.log(senha, confirmacaoSenha)
     if (senha !== confirmacaoSenha || !senha){
         erro.push("Senhas não batem!")
     }
@@ -32,12 +31,20 @@ function validaTelefone(telefone, erro){
     }
 }
 
-export default function validaHospede(payload){
+export function validaHospede(payload){
     const erro = []
     validaSenha(payload.senha, payload.confirmacaoSenha, erro)
     validaEmail(payload.email, erro)
     validaNome(payload.nome, erro)
     validaTelefone(payload.telefone, erro)
     validaCPF(payload.cpf, erro)
+    return erro
+}
+
+export function validaRecuperacao(payload){
+    const erro = []
+    validaSenha(payload.senha, payload.confirmaSenha, erro)
+    validaEmail(payload.email, erro)
+
     return erro
 }
