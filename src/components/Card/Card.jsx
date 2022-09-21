@@ -84,7 +84,7 @@ export default function Cards(){
                         <div className={Style.img}>
                             <img src={Suite}/>
                         </div>
-                        <h1>texto</h1>
+                        <h1>Quarto simples</h1>
                         <div className={Style.content}>
                             <p>R$ 300,00 Diária</p>
                             <a href="#">Reservas</a>
