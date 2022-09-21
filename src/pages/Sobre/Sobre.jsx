@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Sobre.module.css"
 import image from "../../assets/imagem-sobre.jpeg"
-import logo from "../../assets/zebra.png"
+import logo from "../../assets/logocastle-logo.png"
 
 export default function Sobre(){
     return(
