@@ -22,11 +22,13 @@ function Input({ classe }) {
 
     return (
         <div className={style.formLogin}>
+                <h2>Entre na sua conta</h2>
             <form>
                 <input type="text" placeholder="E-mail" onChange={event => setEmail(event.target.value)} />
-                <input type="text" placeholder="Senha" onChange={event => setSenha(event.target.value)} />
+                <input type="password" placeholder="Senha" onChange={event => setSenha(event.target.value)} />
             </form>
-            <Botao texto={"Entrar"}/>
+            <Botao classe={style.botaoLogin} texto={"Entrar"} click={requestLogin}/>
+            <hr />
             <Link to="/">Esqueceu sua senha?</Link>
         </div>
     )

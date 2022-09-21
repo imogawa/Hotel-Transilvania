@@ -5,11 +5,13 @@ import { Link } from "react-router-dom";
 
 export default function Header(){
     const itens = ['Home','Nossos Quartos','Fale Conosco','Cadastre-se','Login','Sobre nós']
-    const hrefs = ['/','/reservas','/fale-conosco','/cadastro','/login','/sobre']
+    const hrefs = ['/','/quartos','/time','/cadastro','/login','/sobre']
     return (
         <header>
             <div>
-                <img src={logo} alt="Logo" />
+                <Link to="/">
+                    <img src={logo} className={style.logoHeader} alt="Logo" />
+                </Link>
             </div>
             <nav>
                 {itens.map((item, index)=>{
