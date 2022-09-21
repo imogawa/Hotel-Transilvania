@@ -26,103 +26,108 @@ export default function Cards(){
     },[] );
 
     return (
-        <div className={Style.container}>
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
-                </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
 
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
-                </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
+    
+                <div className={Style.container}>
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
 
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
-                </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
 
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
-                </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
 
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
-                </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
 
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
-                </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
 
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
-                </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
 
-            <div className={Style.card}>
-                <div className={Style.img}>
-                    <img src={Quarto}/>
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
+
+                    <div className={Style.card}>
+                        <div className={Style.img}>
+                            <img src={Quarto}/>
+                        </div>
+                        <h1>texto</h1>
+                        <h3>texto</h3>
+                        <div className={Style.content}>
+                            <p>R$ 300,00</p>
+                            <a href="#">Reservas</a>
+                        </div>
+                    </div>
                 </div>
-                <h1>Suíte Plaza</h1>
-                <h3>Suíte com cama tamanho king, varanda para a praia e banheira tamanho grande no banheiro.</h3>
-                <div className={Style.content}>
-                    <p>R$ 300,00</p>
-                    <a href="#">Reservas</a>
-                </div>
-            </div>
-        </div>
+       
+        
+    
     )
 
 }
