@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Hotel Transilnia 
+## :hotel: Sobre :hotel:
+Projeto final do curso de Web Dev FullStack da Resilia Educação no qual tivemos que desenvolver um site em React.js no qual o objetivo é consumir API REST - criada no módulo 4 e transformá-la em um site.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O site do Hotel Transilnia  foi desenvolvido com muito carinho, pensando principalmente na praticidade e na usabilidade corriqueira do dia a dia. Além de ser um projeto pensado em automatizar os serviços do nosso clinte!
 
-## Available Scripts
+## :heavy_check_mark:  Rotas de Aplicação  :heavy_check_mark:
+```
+/: Pagina home onde contém um video de todo nosso hotel.
+```
+```
+/cadastro: Momento em que é feita a coleta de dados pessoais pra poder se jeito o login e após a reseva.
+```
+```
+/login: É feito um comparativo pra ver se o email e a senha batem, com que foi realizada no cadastro.
+```
+```
+/sobre: Onde contamos um pouco da história do hotel.
+```
+```
+/quartos: Contém todos os quartos dispiníveis para realizar a reserva.
+```
+```
+/time: Todo nosso time de desnvolvimento Tech e seus demais contatos.
+```
+```
+/recupera: Caso a senha seja esqucida, a pessoa não precissa refazer seu cadastro, apenas a recuperaçao  de senha de acordo com seu email.
+```
 
-In the project directory, you can run:
 
-### `npm start`
+## :lock_with_ink_pen: Instalação da aplicação :lock_with_ink_pen:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:small_blue_diamond: Abra o terminal e rode os comandos abaixo: <br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+:small_blue_diamond: Clonando o repositório:
+```
+git clone https://github.com/imogawa/Hotel-Transilvania
+```
+:small_blue_diamond: Entrando na pasta:
+```
+cd Hotel-Transilvania
+```
+:small_blue_diamond: Para instalar pacotes:
+```
+npm install ou npm i
+```
+:small_blue_diamond: Para rodar a aplicação:
+```
+npm start
+```
 
-### `npm test`
+## :heavy_check_mark:  Requisitos  :heavy_check_mark:
+:small_blue_diamond: React (18.2.0) <br>
+:small_blue_diamond: VsCode ou qualquer editor de texto de preferência. <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :paperclip: Bibliotecas utilizadas :paperclip:
+React Router Dom: Através desta biblioteca tornamos possível a interação entre páginas, possibilitando o usuário de navegar entre as páginas: home, sobre, reserva e login com extrema facilidade.
 
-### `npm run build`
+React Dom: Para possibilitar o uso, teste e desenvolvimento da aplicação de forma visual e tempo real, este projeto conta com o uso da biblioteca React Dom a qual abre um servidore interno para executar a aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Axios: Para rodar no navegador e no node.js com a mesma base de código, utilizamos o Axios implemetado na aplicação.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :footprints: Link da hospedazem do site na Vercel :footprints:
+https://hotel-transilvania.vercel.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :footprints: Link da Apresntação :footprints:
+https://www.canva.com/design/DAFMyrywyVQ/n7VowH38DS8sVeHTDlpO9Q/edit
 
-### `npm run eject`
+## :paperclip: Links Externos :paperclip:
+https://pt-br.reactjs.org/ <br>
+https://create-react-app.dev/ <br>
+https://pt-br.reactjs.org/docs/components-and-props.html <br>
+https://www.devmedia.com.br/consumindo-uma-api-com-react-js-e-axios/42900 <br>
+https://www.mongodb.com/ <br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤜 Colaboradoras 🤛
+<table>      
+  <tr>    
+    <td align="center">
+      <a href="https://github.com/LhaisCosta99">
+        <img src="https://avatars.githubusercontent.com/u/102974727?v=4" width="100px;" alt="Foto de perfil do Github"/><br>
+        <sub>
+          <b>Lhaís Costa</b>
+        </sub>
+      </a>
+    </td>    
+    <td align="center">
+      <a href="https://github.com/carolfranca0310">
+        <img src="https://avatars.githubusercontent.com/u/98667566?v=4" width="100px;" alt="Foto de perfil do Github"/><br>
+        <sub>
+          <b>Carol Araújo</b>
+        </sub>
+      </a>
+    </td> 
+    <td align="center">
+      <a href="https://github.com/imogawa">
+        <img src="https://avatars.githubusercontent.com/u/103681129?v=4" width="100px;" alt="Foto de perfil do Github"/><br>
+        <sub>
+          <b>Iviny Ogawa</b>
+        </sub>
+      </a>
+    </td>         
+    <td align="center">
+      <a href="https://github.com/luanaassisi">
+        <img src="https://avatars.githubusercontent.com/u/98328512?v=4" width="100px;" alt="Foto de perfil do Github"/><br>
+        <sub>
+          <b>Luana Assis</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/camilamenacho">
+        <img src="https://avatars.githubusercontent.com/u/25486661?v=4" width="100px;" alt="Foto de perfil do Github"/><br>
+        <sub>
+          <b>Camila</b>
+        </sub>
+      </a>
+    </td> 
+    <td align="center">
+      <a href="https://github.com/gabisegger">
+        <img src="https://avatars.githubusercontent.com/u/96390723?v=4" width="100px;" alt="Foto de perfil do Github"/><br>
+        <sub>
+          <b>Gabriela Segger</b>
+        </sub>
+      </a>
+    </td>            
+  </tr>     
+</table>
