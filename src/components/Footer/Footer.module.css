@@ -1,0 +1,70 @@
+footer{
+    background-color: rgba(184, 142, 88, 0.185);
+    display: flex;
+    bottom: 0;
+    height: 200px;
+}
+
+hr{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > .logos{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+footer > .logos > .imgResilia{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+footer > .texto > .logos > .imgStone{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 11px;
+}
+
+footer > .copy{
+    display: flex;
+}
+
+footer > .texto{
+    display: flex;
+    justify-items: center;
+    height: auto;
+    width: 100em;
+
+}
+
+footer > .texto > p{
+    padding: 15px;
+    justify-content: end;
+
+}
+
+footer > .copy{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: end;
+    width: 100%;
+}
+
+footer > .copy > span{
+    padding: 10px;
+
+}
+
+h4 {
+    color: blue;
+}
+
+h4:hover{
+    transform: scale(0.98);
+    opacity: 0.9;
+    color:black
+}
